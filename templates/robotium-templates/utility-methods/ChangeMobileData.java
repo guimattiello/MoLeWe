@@ -1,0 +1,1 @@
+solo.setMobileData({{value}});

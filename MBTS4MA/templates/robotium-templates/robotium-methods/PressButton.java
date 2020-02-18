@@ -1,0 +1,1 @@
+solo.clickOnButton(solo.getString({{idbutton}}));

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/mainLayout"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+   <ToggleButton android:id="@+id/trackingToggleButton" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:textOn="@string/button_stop_tracking"
+      android:textOff="@string/button_start_tracking"
+      android:layout_gravity="bottom|right"></ToggleButton>
+</FrameLayout>

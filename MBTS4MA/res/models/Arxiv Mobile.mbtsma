@@ -1,0 +1,49 @@
+{
+  "name": "Arxiv Mobile",
+  "description": "",
+  "androidProjectPath": "C:\\Users\\Henrique\\AndroidStudioProjects\\arxiv-mobile-master1\\app\\src\\main",
+  "graphXML": "<mxGraphModel><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"1000\" parent=\"1\" style=\"START_VERTEX\" value=\"[\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"50.0\" width=\"50.0\" x=\"70.0\" y=\"380.0\"/></mxCell><mxCell id=\"2000\" parent=\"1\" style=\"END_VERTEX\" value=\"]\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"50.0\" width=\"50.0\" x=\"870.0\" y=\"590.0\"/></mxCell><mxCell id=\"52095681-da32-4359-8cce-597c40270544\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Press Button Search\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"60.0\" width=\"130.0\" x=\"230.0\" y=\"290.0\"/></mxCell><mxCell edge=\"1\" id=\"2003\" parent=\"1\" source=\"1000\" style=\"\" target=\"52095681-da32-4359-8cce-597c40270544\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"100.0\" y=\"410.0\"/><mxPoint as=\"targetPoint\" x=\"240.0\" y=\"340.0\"/></mxGeometry></mxCell><mxCell id=\"af1d5749-814d-4720-a9b9-ea9d0637cf3a\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Fill Filter Fields\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"50.0\" width=\"100.0\" x=\"460.0\" y=\"300.0\"/></mxCell><mxCell edge=\"1\" id=\"2004\" parent=\"1\" source=\"52095681-da32-4359-8cce-597c40270544\" style=\"\" target=\"af1d5749-814d-4720-a9b9-ea9d0637cf3a\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"300.0\" y=\"320.0\"/><mxPoint as=\"targetPoint\" x=\"480.0\" y=\"390.0\"/></mxGeometry></mxCell><mxCell id=\"cb8afc4e-b603-419b-a4f4-61dc645c1c91\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Press Button Search\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"60.0\" width=\"120.0\" x=\"640.0\" y=\"390.0\"/></mxCell><mxCell edge=\"1\" id=\"2005\" parent=\"1\" source=\"af1d5749-814d-4720-a9b9-ea9d0637cf3a\" style=\"\" target=\"cb8afc4e-b603-419b-a4f4-61dc645c1c91\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"490.0\" y=\"320.0\"/><mxPoint as=\"targetPoint\" x=\"660.0\" y=\"320.0\"/></mxGeometry></mxCell><mxCell id=\"819c1e84-89f8-4822-8890-975b7a42bd36\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Select Item List [Category]\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"60.0\" width=\"170.0\" x=\"90.0\" y=\"500.0\"/></mxCell><mxCell edge=\"1\" id=\"2006\" parent=\"1\" source=\"1000\" style=\"\" target=\"819c1e84-89f8-4822-8890-975b7a42bd36\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"100.0\" y=\"410.0\"/><mxPoint as=\"targetPoint\" x=\"240.0\" y=\"490.0\"/></mxGeometry></mxCell><mxCell id=\"2fe98403-b9f1-4c29-8a73-c8a74750964a\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Select Item List [Sub-Category]\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"110.0\" width=\"180.0\" x=\"270.0\" y=\"630.0\"/></mxCell><mxCell edge=\"1\" id=\"2007\" parent=\"1\" source=\"819c1e84-89f8-4822-8890-975b7a42bd36\" style=\"\" target=\"2fe98403-b9f1-4c29-8a73-c8a74750964a\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"180.0\" y=\"530.0\"/><mxPoint as=\"targetPoint\" x=\"290.0\" y=\"670.0\"/></mxGeometry></mxCell><mxCell id=\"9b6284a8-5543-4b88-b66f-a22f6496d709\" parent=\"1\" style=\"NORMAL_VERTEX\" value=\"Show Articles\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"50.0\" width=\"100.0\" x=\"500.0\" y=\"660.0\"/></mxCell><mxCell edge=\"1\" id=\"2008\" parent=\"1\" source=\"2fe98403-b9f1-4c29-8a73-c8a74750964a\" style=\"\" target=\"9b6284a8-5543-4b88-b66f-a22f6496d709\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"360.0\" y=\"690.0\"/><mxPoint as=\"targetPoint\" x=\"510.0\" y=\"680.0\"/></mxGeometry></mxCell><mxCell id=\"c58cf726-23d2-465c-aeb7-1cd6fa22d5e5\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Press Button Next\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"50.0\" width=\"100.0\" x=\"650.0\" y=\"660.0\"/></mxCell><mxCell edge=\"1\" id=\"2009\" parent=\"1\" source=\"9b6284a8-5543-4b88-b66f-a22f6496d709\" style=\"\" target=\"c58cf726-23d2-465c-aeb7-1cd6fa22d5e5\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"550.0\" y=\"690.0\"/><mxPoint as=\"targetPoint\" x=\"660.0\" y=\"680.0\"/></mxGeometry></mxCell><mxCell edge=\"1\" id=\"2010\" parent=\"1\" source=\"cb8afc4e-b603-419b-a4f4-61dc645c1c91\" style=\"\" target=\"9b6284a8-5543-4b88-b66f-a22f6496d709\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"700.0\" y=\"420.0\"/><mxPoint as=\"targetPoint\" x=\"540.0\" y=\"670.0\"/></mxGeometry></mxCell><mxCell id=\"a6df955f-3f91-47e6-ab25-d907110b448e\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Select Item List [Article]\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"80.0\" width=\"130.0\" x=\"180.0\" y=\"790.0\"/></mxCell><mxCell edge=\"1\" id=\"2011\" parent=\"1\" source=\"c58cf726-23d2-465c-aeb7-1cd6fa22d5e5\" style=\"\" target=\"9b6284a8-5543-4b88-b66f-a22f6496d709\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"700.0\" y=\"690.0\"/><mxPoint as=\"targetPoint\" x=\"600.0\" y=\"670.0\"/></mxGeometry></mxCell><mxCell id=\"327d00cf-c614-456e-a302-a7635028f1b1\" parent=\"1\" style=\"NORMAL_VERTEX\" value=\"Show Article Info\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"50.0\" width=\"100.0\" x=\"370.0\" y=\"800.0\"/></mxCell><mxCell id=\"722779e7-8b57-4bf0-9190-a6f2f9f36945\" parent=\"1\" style=\"EVENT_VERTEX\" value=\"Press Button GET PDF\" vertex=\"1\"><mxGeometry as=\"geometry\" height=\"90.0\" width=\"140.0\" x=\"520.0\" y=\"780.0\"/></mxCell><mxCell edge=\"1\" id=\"2012\" parent=\"1\" source=\"9b6284a8-5543-4b88-b66f-a22f6496d709\" style=\"\" target=\"a6df955f-3f91-47e6-ab25-d907110b448e\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"550.0\" y=\"690.0\"/><mxPoint as=\"targetPoint\" x=\"280.0\" y=\"800.0\"/></mxGeometry></mxCell><mxCell edge=\"1\" id=\"2013\" parent=\"1\" source=\"a6df955f-3f91-47e6-ab25-d907110b448e\" style=\"\" target=\"327d00cf-c614-456e-a302-a7635028f1b1\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"250.0\" y=\"830.0\"/><mxPoint as=\"targetPoint\" x=\"390.0\" y=\"840.0\"/></mxGeometry></mxCell><mxCell edge=\"1\" id=\"2014\" parent=\"1\" source=\"327d00cf-c614-456e-a302-a7635028f1b1\" style=\"\" target=\"722779e7-8b57-4bf0-9190-a6f2f9f36945\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"420.0\" y=\"830.0\"/><mxPoint as=\"targetPoint\" x=\"520.0\" y=\"820.0\"/></mxGeometry></mxCell><mxCell edge=\"1\" id=\"2015\" parent=\"1\" source=\"722779e7-8b57-4bf0-9190-a6f2f9f36945\" style=\"\" target=\"2000\" value=\"\"><mxGeometry as=\"geometry\" relative=\"1\"><mxPoint as=\"sourcePoint\" x=\"590.0\" y=\"830.0\"/><mxPoint as=\"targetPoint\" x=\"1020.0\" y=\"510.0\"/></mxGeometry></mxCell></root></mxGraphModel>",
+  "applicationPackage": "com.commonsware.android.arXiv",
+  "mainTestingActivity": "PrintDialogActivity",
+  "methodTemplatesByVertices": {
+    "52095681-da32-4359-8cce-597c40270544": "Press Button",
+    "af1d5749-814d-4720-a9b9-ea9d0637cf3a": "Fill Edit Text",
+    "cb8afc4e-b603-419b-a4f4-61dc645c1c91": "Press Button",
+    "819c1e84-89f8-4822-8890-975b7a42bd36": "Select List Item",
+    "2fe98403-b9f1-4c29-8a73-c8a74750964a": "Select List Item",
+    "c58cf726-23d2-465c-aeb7-1cd6fa22d5e5": "Press Button",
+    "a6df955f-3f91-47e6-ab25-d907110b448e": "Select List Item",
+    "722779e7-8b57-4bf0-9190-a6f2f9f36945": "Press Button"
+  },
+  "methodTemplatesPropertiesByVertices": {
+    "52095681-da32-4359-8cce-597c40270544": {
+      "idbutton": ""
+    },
+    "af1d5749-814d-4720-a9b9-ea9d0637cf3a": {
+      "idedittext": "spinner",
+      "value": ""
+    },
+    "cb8afc4e-b603-419b-a4f4-61dc645c1c91": {
+      "idbutton": ""
+    },
+    "819c1e84-89f8-4822-8890-975b7a42bd36": {
+      "itemposition": ""
+    },
+    "2fe98403-b9f1-4c29-8a73-c8a74750964a": {
+      "itemposition": ""
+    },
+    "c58cf726-23d2-465c-aeb7-1cd6fa22d5e5": {
+      "idbutton": ""
+    },
+    "a6df955f-3f91-47e6-ab25-d907110b448e": {
+      "itemposition": ""
+    },
+    "722779e7-8b57-4bf0-9190-a6f2f9f36945": {
+      "idbutton": ""
+    }
+  },
+  "edgeTemplates": {},
+  "user": "DESKTOP-CN533QL",
+  "lastDate": "01/21/2017 16:59:39",
+  "id": "fdb41b9b-3ce2-4125-a538-fc629611ccfb"
+}

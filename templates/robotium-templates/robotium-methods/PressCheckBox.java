@@ -1,0 +1,1 @@
+solo.clickOnView((CheckBox) solo.getView({{idcheckbox}}));

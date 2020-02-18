@@ -1,0 +1,22 @@
+[ -> Display tracking screen
+Display tracking screen -> Press back
+Display tracking screen -> Press menu
+Display tracking screen -> Press start tracking
+Press back -> ]
+Press menu -> Display options
+Press back -> Display tracking screen
+Display options -> Press back
+Display options -> Select map
+Display options -> Select satellite
+Select map -> Display map
+Display map -> Display tracking screen
+Select satellite -> Display satellite
+Display satellite -> Display tracking screen
+Press OK -> Display tracking screen
+Listen to GPS -> Read updated location
+Listen to GPS -> Press stop tracking
+Press start tracking -> Listen to GPS
+Update screen/map -> Listen to GPS
+Read updated location -> Update screen/map
+Press stop tracking -> Show distance and avg speed
+Show distance and avg speed -> Press OK

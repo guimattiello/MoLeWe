@@ -1,0 +1,1 @@
+solo.clickOnView(solo.getView({{idradiobutton}}));

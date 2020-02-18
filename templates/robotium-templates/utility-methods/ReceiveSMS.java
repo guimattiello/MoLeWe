@@ -1,0 +1,1 @@
+TestSMSEvent.receiveSMS("{{phonenumber}}", "{{message}}");

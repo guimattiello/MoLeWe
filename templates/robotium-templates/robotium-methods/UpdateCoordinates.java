@@ -1,0 +1,1 @@
+TestLocationProvider.sendLocation(solo, new double[] { 43.723180, 44.697660 }, new double[] { 10.396677, 10.631054 });

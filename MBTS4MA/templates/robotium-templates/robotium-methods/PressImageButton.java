@@ -1,0 +1,1 @@
+solo.clickOnImageButton((ImageButton) solo.getView({{idbutton}}));

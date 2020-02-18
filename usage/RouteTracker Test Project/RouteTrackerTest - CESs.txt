@@ -1,0 +1,11 @@
+Number of Events: 17
+[, Display tracking screen, Press menu, Display options, Press back, Display tracking screen, Press start tracking, Listen to GPS, Read updated location, Update screen/map, Listen to GPS, Press stop tracking, Show distance and avg speed, Press OK, Display tracking screen, Press back, ]
+
+Number of Events: 9
+[, Display tracking screen, Press menu, Display options, Select map, Display map, Display tracking screen, Press back, ]
+
+Number of Events: 9
+[, Display tracking screen, Press menu, Display options, Select satellite, Display satellite, Display tracking screen, Press back, ]
+
+Number of CESs: 3
+Total Number of Events: 35
