@@ -37,7 +37,7 @@ Click in the confirmation button. The model will be generated.
 
 The experimental package can be found [here](http://testedesoftware.cp.utfpr.edu.br/).
 
-In this URL you will find all the virtual machine files, participants projects and instructions to access the applications with preconfigured users.
+In this URL you will find all the virtual machine files, participants projects, the metrics collected and instructions to access the applications with preconfigured users.
 
 Download the virtual machine for the application you want to use and the **package_experimental.zip** file. This file contains all the 18 participants projects.
 
