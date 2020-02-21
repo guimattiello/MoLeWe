@@ -48,9 +48,10 @@ The experimental package contains the following files:
   - [MediaWiki](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-mediawiki.vdi)
   - [OpenCart](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-opencart-coverage.vdi)
   - [sysPass](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-syspass.vdi)
-- [Metrics collected](http://testedesoftware.cp.utfpr.edu.br/metrics-collected.xlsx): contains all the metrics collected and instructions to access the applications with preconfigured users.
+- [Metrics collected](http://testedesoftware.cp.utfpr.edu.br/metrics-collected.csv): contains all the metrics collected.
+- [Instructions to access web applications](http://testedesoftware.cp.utfpr.edu.br/web-applications-instructions.pdf): contains instructions to access the web applications with preconfigured users.
 
-Download the virtual machine for the application you want to use and the **experimental-package.zip** file. This file contains all the 18 participants projects.
+Download the virtual machine for the application you want to use and the **experimental-package.zip** file. This file contains all the 18 participants projects. Read file [Instructions to access web applications](http://testedesoftware.cp.utfpr.edu.br/web-applications-instructions.pdf) to get credentials and further configurations.
 
 Each project in the **experimental-package.zip** file has the following directories and files:
 - **coverages-after-new-tests**: This directory contains the line coverage achieved after running the new tests;
@@ -62,11 +63,13 @@ Each project in the **experimental-package.zip** file has the following director
 - **project X - before changes.png**: Project model BEFORE the extension step;
 - **ProjectX.mbtsma**: Model project saved by the MoLeWe tool.
 
-Start the application's virtual machine and check which IP the machine received.
+Start the application's virtual machine and check which IP the machine received. The credencials to log into the VM are:
+- User: root
+- Password: utfpr
 
 There are two scripts on the virtual machine:
-- **before_testing.sh**: run before running the test suite, to clean up the line coverage collection;
-- **after_testing.sh**: run after running the test suite, to calculate line coverage;
+- **/root/before_testing.sh**: run before running the test suite, to clean up the line coverage collection;
+- **/root/after_testing.sh**: run after running the test suite, to calculate line coverage;
 
 Select a project and change the IP address (according to the VM's IP) using any IDE.
 
