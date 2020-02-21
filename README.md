@@ -48,11 +48,7 @@ The experimental package contains the following files:
   - [MediaWiki](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-mediawiki.vdi)
   - [OpenCart](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-opencart-coverage.vdi)
   - [sysPass](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-syspass.vdi)
-- [Metrics collected](http://testedesoftware.cp.utfpr.edu.br/metrics-collected.xlsx)
-
-The experimental package can be found [here](http://testedesoftware.cp.utfpr.edu.br/).
-
-In this URL you will find all the virtual machine files, participants projects, the metrics collected and instructions to access the applications with preconfigured users.
+- [Metrics collected](http://testedesoftware.cp.utfpr.edu.br/metrics-collected.xlsx): contains all the metrics collected and instructions to access the applications with preconfigured users.
 
 Download the virtual machine for the application you want to use and the **experimental-package.zip** file. This file contains all the 18 participants projects.
 
