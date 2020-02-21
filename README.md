@@ -35,13 +35,28 @@ Click in the confirmation button. The model will be generated.
 
 ## Experimental Package
 
+The experimental package contains the following files:
+
+- [Projects and generated models (experimental-package.zip)](http://testedesoftware.cp.utfpr.edu.br/experimental-package.zip)
+- Nine virtual machines with the web applications configured:
+  - [Akaunting](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-akaunting.vdi)
+  - [Attendize](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-attendize.vdi)
+  - [Firefly](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-firefly.vdi)
+  - [Laravel-Gymie](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-laravel-gymie.vdi)
+  - [Lychee](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-lychee.vdi)
+  - [Mapos](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-mapos.vdi)
+  - [MediaWiki](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-mediawiki.vdi)
+  - [OpenCart](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-opencart-coverage.vdi)
+  - [sysPass](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-syspass.vdi)
+- [Metrics collected](http://testedesoftware.cp.utfpr.edu.br/metrics-collected.xlsx)
+
 The experimental package can be found [here](http://testedesoftware.cp.utfpr.edu.br/).
 
 In this URL you will find all the virtual machine files, participants projects, the metrics collected and instructions to access the applications with preconfigured users.
 
-Download the virtual machine for the application you want to use and the **package_experimental.zip** file. This file contains all the 18 participants projects.
+Download the virtual machine for the application you want to use and the **experimental-package.zip** file. This file contains all the 18 participants projects.
 
-Each project in the **package_experimental.zip** file has the following directories and files:
+Each project in the **experimental-package.zip** file has the following directories and files:
 - **coverages-after-new-tests**: This directory contains the line coverage achieved after running the new tests;
 - **coverages-before-new-tests**: This directory contains the line coverage achieved by the original project;
 - **project - refactored before new tests**: This directory contains the original refactored project;
