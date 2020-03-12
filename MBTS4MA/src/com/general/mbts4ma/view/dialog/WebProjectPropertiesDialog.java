@@ -84,7 +84,7 @@ public class WebProjectPropertiesDialog extends JDialog {
 
 		this.setTitle("Properties");
 
-		this.setBounds(100, 100, 500, 600);
+		this.setBounds(100, 100, 500, 500);
 		this.getContentPane().setLayout(new BorderLayout());
 		this.contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		this.setModal(true);
@@ -262,21 +262,21 @@ public class WebProjectPropertiesDialog extends JDialog {
 						addComponent(this.btnSelectWebProjectTestPath, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
 						addPreferredGap(ComponentPlacement.RELATED)						
 					).
-					addComponent(this.btnDatabaseProperties, GroupLayout.PREFERRED_SIZE, 366, GroupLayout.PREFERRED_SIZE).					
-					addGroup(Alignment.TRAILING, gl_contentPanel.createSequentialGroup().
+					//addComponent(this.btnDatabaseProperties, GroupLayout.PREFERRED_SIZE, 366, GroupLayout.PREFERRED_SIZE).					
+					//addGroup(Alignment.TRAILING, gl_contentPanel.createSequentialGroup().
 						addComponent(scrollPane, GroupLayout.DEFAULT_SIZE, 366, Short.MAX_VALUE).
-						addPreferredGap(ComponentPlacement.UNRELATED).
-						addComponent(this.btnSelectPageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
-						addPreferredGap(ComponentPlacement.RELATED).
-						addComponent(btnRemovePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
-						addComponent(this.btnUpdatePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
-					).
+						//addPreferredGap(ComponentPlacement.UNRELATED).
+						//addComponent(this.btnSelectPageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
+						//addPreferredGap(ComponentPlacement.RELATED).
+						//addComponent(btnRemovePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
+						//addComponent(this.btnUpdatePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
+					//).
 					addComponent(lblNewLabel, GroupLayout.PREFERRED_SIZE, 46, GroupLayout.PREFERRED_SIZE).
 					addComponent(this.txtName, GroupLayout.PREFERRED_SIZE, 260, GroupLayout.PREFERRED_SIZE).
 					addComponent(lblDescription).
 					addComponent(this.txtDescription, GroupLayout.PREFERRED_SIZE, 404, GroupLayout.PREFERRED_SIZE).					
-					addComponent(lblWebProjectURL, GroupLayout.PREFERRED_SIZE, 350, GroupLayout.PREFERRED_SIZE).					
-					addComponent(this.txtWebProjectURL, GroupLayout.PREFERRED_SIZE, 260, GroupLayout.PREFERRED_SIZE).
+					//addComponent(lblWebProjectURL, GroupLayout.PREFERRED_SIZE, 350, GroupLayout.PREFERRED_SIZE).					
+					//addComponent(this.txtWebProjectURL, GroupLayout.PREFERRED_SIZE, 260, GroupLayout.PREFERRED_SIZE).
 					addComponent(lblWebProjectTestPath, GroupLayout.PREFERRED_SIZE, 165, GroupLayout.PREFERRED_SIZE).
 					addComponent(lblWebProjectPageObject, GroupLayout.PREFERRED_SIZE, 165, GroupLayout.PREFERRED_SIZE)
 				).addContainerGap()
@@ -295,8 +295,8 @@ public class WebProjectPropertiesDialog extends JDialog {
 				addPreferredGap(ComponentPlacement.RELATED).
 				addComponent(this.txtDescription, GroupLayout.PREFERRED_SIZE, 65, GroupLayout.PREFERRED_SIZE).
 				addPreferredGap(ComponentPlacement.RELATED).
-				addComponent(lblWebProjectURL).addPreferredGap(ComponentPlacement.RELATED).
-				addComponent(this.txtWebProjectURL, GroupLayout.PREFERRED_SIZE, 30, GroupLayout.PREFERRED_SIZE).
+				//addComponent(lblWebProjectURL).addPreferredGap(ComponentPlacement.RELATED).
+				//addComponent(this.txtWebProjectURL, GroupLayout.PREFERRED_SIZE, 30, GroupLayout.PREFERRED_SIZE).
 				addPreferredGap(ComponentPlacement.RELATED).
 				addComponent(lblWebProjectTestPath, GroupLayout.PREFERRED_SIZE, 16, GroupLayout.PREFERRED_SIZE).
 				addPreferredGap(ComponentPlacement.RELATED).
@@ -307,18 +307,18 @@ public class WebProjectPropertiesDialog extends JDialog {
 					).					
 					addComponent(this.btnSelectWebProjectTestPath, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
 				).
-				addComponent(this.btnDatabaseProperties, GroupLayout.PREFERRED_SIZE, 30, GroupLayout.PREFERRED_SIZE).
-				addPreferredGap(ComponentPlacement.RELATED).
+				//addComponent(this.btnDatabaseProperties, GroupLayout.PREFERRED_SIZE, 30, GroupLayout.PREFERRED_SIZE).
+				//addPreferredGap(ComponentPlacement.RELATED).
 				addComponent(lblWebProjectPageObject, GroupLayout.PREFERRED_SIZE, 16, GroupLayout.PREFERRED_SIZE).
 				addPreferredGap(ComponentPlacement.RELATED).				
-				addGroup(gl_contentPanel.createParallelGroup(Alignment.LEADING).
+				//addGroup(gl_contentPanel.createParallelGroup(Alignment.LEADING).
 					addGroup(gl_contentPanel.createSequentialGroup().
 						addComponent(scrollPane, GroupLayout.PREFERRED_SIZE, 140, GroupLayout.PREFERRED_SIZE).addGap(12)
 					).
-					addComponent(btnRemovePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
-					addComponent(this.btnSelectPageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
-					addComponent(this.btnUpdatePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
-				).
+					//addComponent(btnRemovePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
+					//addComponent(this.btnSelectPageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE).
+					//addComponent(this.btnUpdatePageObject, GroupLayout.PREFERRED_SIZE, 36, GroupLayout.PREFERRED_SIZE)
+				//).
 				addContainerGap(49, Short.MAX_VALUE)
 			)
 		);

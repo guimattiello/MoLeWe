@@ -198,7 +198,7 @@ public class ExtractCESsDialog extends JDialog {
 		} else {
 				
 			if (GraphProjectBO.generateTestingWebCodeSnippetsFiles(this.graphProject, this.cess, this.graph)) {	
-				JOptionPane.showMessageDialog(null, "Testing code snippet successfully generated.", "Attention", JOptionPane.INFORMATION_MESSAGE);	
+				//JOptionPane.showMessageDialog(null, "Testing code snippet successfully generated.", "Attention", JOptionPane.INFORMATION_MESSAGE);	
 				/*try {
 					Desktop.getDesktop().open(this.graphProject.getLauncher().getEnvironment().getSourceOutputDirectory());
 				} catch (IOException e) {

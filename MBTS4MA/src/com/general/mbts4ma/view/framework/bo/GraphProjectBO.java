@@ -22,6 +22,7 @@ import java.util.regex.Pattern;
 import javax.swing.JOptionPane;
 
 import org.apache.commons.io.FileUtils;
+import org.eclipse.jdt.core.dom.TypeMethodReference;
 import org.jgraph.graph.Edge;
 import org.jgrapht.alg.DijkstraShortestPath;
 import org.w3c.dom.Document;
@@ -30,6 +31,8 @@ import com.general.mbts4ma.EventInstance;
 import com.general.mbts4ma.Parameter;
 import com.general.mbts4ma.view.MainView;
 import com.general.mbts4ma.view.dialog.EventPropertiesDialog;
+import com.general.mbts4ma.view.dialog.ExtractCESsDialog;
+import com.general.mbts4ma.view.dialog.NewTestCasesDialog;
 import com.general.mbts4ma.view.framework.gson.GsonBuilderSingleton;
 import com.general.mbts4ma.view.framework.util.FileUtil;
 import com.general.mbts4ma.view.framework.util.MapUtil;
@@ -54,11 +57,15 @@ import com.mxgraph.util.png.mxPngEncodeParam;
 import com.mxgraph.util.png.mxPngImageEncoder;
 import com.mxgraph.view.mxGraph;
 
+import spoon.Launcher;
 import spoon.reflect.code.CtBlock;
+import spoon.reflect.code.CtExpression;
 import spoon.reflect.code.CtStatement;
+import spoon.reflect.declaration.CtClass;
 import spoon.reflect.declaration.CtConstructor;
 import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtParameter;
+import spoon.reflect.declaration.CtType;
 import spoon.reflect.declaration.ModifierKind;
 import spoon.reflect.factory.TypeFactory;
 import spoon.reflect.reference.CtTypeReference;
@@ -1177,6 +1184,11 @@ public class GraphProjectBO implements Serializable {
 				graphProject.countConcreteMethods = 0;
 			
 				List<CtMethod<?>> methods = getMethodsToCreateFromCES(graphProject, null, graph);
+				
+				if (methods != null) {				
+					NewTestCasesDialog dialog = new NewTestCasesDialog(methods);
+					dialog.setVisible(true);
+				}
 				
 				System.out.println("Time to generate new TCs: " + (System.currentTimeMillis() - initialTime) + " milliseconds");
 				System.out.println("Concrete events: " + graphProject.countConcreteMethods);
