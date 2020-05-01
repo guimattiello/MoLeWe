@@ -14,7 +14,7 @@ Model-based testing Leverage for Web (MoLeWe) is a tool that supports test case 
 
 ## Usage
 
-- Download the source code from this repository and open the project *MBTS4MA* in Eclipse IDE;
+- Download the source code from this repository and open the projects *MBTS4MA* and *MBTS4MA-Runner* in Eclipse IDE;
 - Run the project *MBTS4MA*;
 
 ### Generating a model from a test suite
