@@ -53,7 +53,9 @@ The experimental package contains the following files:
   - [OpenCart](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-opencart-coverage.vdi)
   - [sysPass](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-syspass.vdi)
 - [Metrics collected](http://testedesoftware.cp.utfpr.edu.br/metrics-collected.csv): contains all the metrics collected.
-- [Instructions to access web applications](http://testedesoftware.cp.utfpr.edu.br/web-applications-instructions.pdf): contains instructions to access the web applications with preconfigured users.
+- [Instructions to access web applications](http://testedesoftware.cp.utfpr.edu.br/web-applications-instructions.pdf): contains instructions to access the web applications with preconfigured users
+- [Responses of the modeling effort validation experiment](https://drive.google.com/file/d/1zcTWv0edb0FHe5JioOdIuw_upJkJ9iJ6/view): a spreadsheet containing the responses of the experiment.
+- [Responses of the concretization effort validation experiment](https://drive.google.com/file/d/1vVUUzuPmvXfkpVg7AuS1TkrpSbVdoHwm/view): a spreadsheet containing the responses of the experiment.
 
 Download the virtual machine for the application you want to use and the **experimental-package.zip** file. This file contains all the 18 participants projects. Read file [Instructions to access web applications](http://testedesoftware.cp.utfpr.edu.br/web-applications-instructions.pdf) to get credentials and further configurations.
 
