@@ -81,3 +81,10 @@ Run the test project.
 
 After running the tests, access the line coverage through the browser:
 - *http://virtual-machine-ip/code-coverage-report/*
+
+### Survey with practitioners
+
+We designed two surveys to validate the effort results collected about the model extensions and test concretization. Both surveys are available in the following links: 
+
+- *https://forms.gle/HZdfGuXJRJGvNZMX8*
+- *https://forms.gle/kGPMLsSUU7ZtTini8*
