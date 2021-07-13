@@ -86,7 +86,7 @@ After running the tests, access the line coverage through the browser:
 
 ### Survey with practitioners
 
-We designed two surveys to validate the effort results collected about the model extensions and test concretization. Both surveys are available in the following links: 
+We designed two surveys to assess the effort results collected about the model extensions and test concretization. Both surveys are available in the following links: 
 
 - *https://forms.gle/HZdfGuXJRJGvNZMX8*
 - *https://forms.gle/kGPMLsSUU7ZtTini8*
