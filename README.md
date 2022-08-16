@@ -55,21 +55,21 @@ The experimental package contains the following files:
 
 - [Projects and generated models (experimental-package.zip)](https://drive.google.com/file/d/1zoLyPXCLDjP3xNdWDIybNYYn614V0zhF/view?usp=sharing)
 - Nine virtual machines with the web applications configured:
-  - [Akaunting](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-akaunting.vdi)
-  - [Attendize](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-attendize.vdi)
-  - [Firefly](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-firefly.vdi)
-  - [Laravel-Gymie](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-laravel-gymie.vdi)
-  - [Lychee](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-lychee.vdi)
-  - [Mapos](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-mapos.vdi)
-  - [MediaWiki](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-mediawiki.vdi)
-  - [OpenCart](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-opencart-coverage.vdi)
-  - [sysPass](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-syspass.vdi)
-- [Metrics collected](http://testedesoftware.cp.utfpr.edu.br/metrics-collected.csv): contains all the metrics collected.
-- [Instructions to access web applications](http://testedesoftware.cp.utfpr.edu.br/web-applications-instructions.pdf): contains instructions to access the web applications with preconfigured users
+  - [Akaunting](https://drive.google.com/file/d/1TOWbb9z5iYn5zX9lKEuDs4MsWIK2I0AT/view?usp=sharing)
+  - [Attendize](https://drive.google.com/file/d/1Sif5q3ZNXNmUTEVNapshk0JVoWezUdQf/view?usp=sharing)
+  - [Firefly](https://drive.google.com/file/d/1VQ2DzEhUqYseqXMrTIJHklF8AtCaK-WW/view?usp=sharing)
+  - [Laravel-Gymie](https://drive.google.com/file/d/1_EAEWQkh3GO0wXuN0_btXUWQuyYXqsRZ/view?usp=sharing)
+  - [Lychee](https://drive.google.com/file/d/1dTrm0XIbl-y8DeNgxWDqtNb3LBbv5aSA/view?usp=sharing)
+  - [Mapos](https://drive.google.com/file/d/1rXHsXr52okkdAUVFZC5qZysl5P8qpqSI/view?usp=sharing)
+  - [MediaWiki](https://drive.google.com/file/d/1piy4Kwcbugz-WQ3zSJ4ThwglcGinXafv/view?usp=sharing)
+  - [OpenCart](https://drive.google.com/file/d/1YGAND4FFQbnpcNCuSMnnGaoAoLc-bNxW/view?usp=sharing)
+  - [sysPass](https://drive.google.com/file/d/1ySW_k_TwyCoYZOx4g1ghWfyzdEr4XJn0/view?usp=sharing)
+- [Metrics collected](https://drive.google.com/file/d/1MvMu6leTKqQAlucY6WCsL2NawYK9iHIC/view?usp=sharing): contains all the metrics collected.
+- [Instructions to access web applications](https://drive.google.com/file/d/1Gw8pC02gBboaZH9btAT1GiCkbuubZaII/view?usp=sharing): contains instructions to access the web applications with preconfigured users
 - [Responses of the modeling effort validation experiment](https://drive.google.com/file/d/1zcTWv0edb0FHe5JioOdIuw_upJkJ9iJ6/view): a spreadsheet containing the responses of the experiment.
 - [Responses of the concretization effort validation experiment](https://drive.google.com/file/d/1vVUUzuPmvXfkpVg7AuS1TkrpSbVdoHwm/view): a spreadsheet containing the responses of the experiment.
 
-Download the virtual machine for the application you want to use and the **experimental-package.zip** file. This file contains all the 18 participants projects. Read file [Instructions to access web applications](http://testedesoftware.cp.utfpr.edu.br/web-applications-instructions.pdf) to get credentials and further configurations.
+Download the virtual machine for the application you want to use and the **experimental-package.zip** file. This file contains all the 18 participants projects. Read file [Instructions to access web applications](https://drive.google.com/file/d/1Gw8pC02gBboaZH9btAT1GiCkbuubZaII/view?usp=sharing) to get credentials and further configurations.
 
 Each project in the **experimental-package.zip** file has the following directories and files:
 - **coverages-after-new-tests**: This directory contains the line coverage achieved after running the new tests;
