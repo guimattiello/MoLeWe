@@ -53,7 +53,7 @@ For a complete running example, [click here](https://github.com/guimattiello/MoL
 
 The experimental package contains the following files:
 
-- [Projects and generated models (experimental-package.zip)](http://testedesoftware.cp.utfpr.edu.br/experimental-package.zip)
+- [Projects and generated models (experimental-package.zip)]([http://testedesoftware.cp.utfpr.edu.br/experimental-package.zip](https://drive.google.com/file/d/1zoLyPXCLDjP3xNdWDIybNYYn614V0zhF/view?usp=sharing))
 - Nine virtual machines with the web applications configured:
   - [Akaunting](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-akaunting.vdi)
   - [Attendize](http://testedesoftware.cp.utfpr.edu.br/virtual-machines/testesoftware-attendize.vdi)
