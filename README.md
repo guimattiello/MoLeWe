@@ -2,15 +2,18 @@
 
 Model-based testing Leverage for Web (MoLeWe) is a tool that supports test case generation for web applications.
 
-Publication (early-view):
+Publication:
 ```
-@Article{MattielloEndo2021SQJO,
+@Article{MattielloEndo2022SQJO,
 	author = {Mattiello, G.R. and Endo, A.T.},
 	title = {Model-based testing leveraged for automated web tests},
 	journal = {Software Quality Journal},
 	doi = {10.1007/s11219-021-09575-w},
 	url = {https://doi.org/10.1007/s11219-021-09575-w},
-	year = {2021}
+	volume = {30},
+        number = {3},
+        pages = {621--649},
+	year = {2022}
 } 
 ```
 
